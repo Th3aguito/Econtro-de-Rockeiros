@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #4f566e;
+    max-height: 230px;
+}
+
+.Anuncio{
+    display: flex;
+}
+
+.TextAnuncio{
+font-size: 65px;
+color: darkgray;
+margin-top: 75px;
+margin-left: 70px;
+}
+
+.ImageAnuncio{
+    margin-left: auto;
+    rotate: 90px;
+    width: 550px;
+    max-height: 200px;
+}
+.Itens{
+    display: flex;
+    justify-content: space-around;
+    transition: 500ms;
+
+}
+.Textitens:hover{
+    transition: 500ms;
+    scale: 1.15;
+    border-left-width: 75px;
+    border-right-width: 75px;
+    display: flex;
+    justify-content: space-around;
+}
+.Textitens{
+    transition: 500ms;
+    font-size: 30px;
+    background-color: #7eb7d1;
+    border: solid 10px;
+    border-color: #7eb7d1;
+    border-radius: 15px;
+    color: black;
+}
+Main{
+  display: flex;
+  flex-flow: column wrap;
+  
+  
+}
+.TituloMain{
+    margin-top: 100px;
+    margin-left:50px;
+    font-size: 60px;
+}
+.TextoMain{
+    margin-top: 50px;
+    margin-left:50px;
+    max-width: 850px;
+    font-size: 25px;
+    justify-content: start;
+}
+.SubtituloMain{
+    margin-top: 50px;
+    margin-left:50px;
+    max-width: 850px;
+    font-size: 30px;
+    justify-content: start;
+}
+.ImageMain{
+    width: 400px;
+    margin: auto;
+    min-width: 200px;
+}
+.TextoImagem{
+    display: flex;
+    flex-flow: column wrap ;
+    margin: start;
+}
+body{
+    background-color: #e2c5a6;
+}
