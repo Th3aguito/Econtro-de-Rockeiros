@@ -80,9 +80,14 @@ Main{
 }
 .TextoImagem{
     display: flex;
-    flex-flow: column wrap ;
-    margin: start;
+    flex-flow: row wrap ;
 }
 body{
     background-color: #e2c5a6;
+}
+.ContainerLateral{
+display: flex;
+flex-flow: column wrap;
+justify-content: flex-start;
+align-items: end;
 }
