@@ -51,6 +51,7 @@ margin-left: 70px;
 Main{
   display: flex;
   flex-flow: column wrap;
+    align-items: start;
   
   
 }
@@ -58,6 +59,11 @@ Main{
     margin-top: 100px;
     margin-left:50px;
     font-size: 60px;
+    width: 50vw;
+    display: flex;
+    flex-flow: column wrap;
+    justify-self: start;
+    align-items: start;
 }
 .TextoMain{
     margin-top: 50px;
@@ -65,6 +71,12 @@ Main{
     max-width: 850px;
     font-size: 25px;
     justify-content: start;
+}
+.Textos{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    width: 55vw;
 }
 .SubtituloMain{
     margin-top: 50px;
@@ -74,8 +86,7 @@ Main{
     justify-content: start;
 }
 .ImageMain{
-    width: 400px;
-    margin: auto;
+    width: 300PX;
     min-width: 200px;
 }
 .TextoImagem{
@@ -88,6 +99,7 @@ body{
 .ContainerLateral{
 display: flex;
 flex-flow: column wrap;
-justify-content: flex-start;
-align-items: end;
+align-self: flex-end;
+
+width: 300px;
 }
